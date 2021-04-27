@@ -1,0 +1,41 @@
+{
+  "name": "vueOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.2.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}

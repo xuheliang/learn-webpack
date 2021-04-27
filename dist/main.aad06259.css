@@ -1,0 +1,30 @@
+
+.color-red[data-v-8f6b8608] {
+  color: red
+}
+
+.play {
+  background-image: url(dist/assest/images/play-87671.png);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  margin: 0;
+  cursor: pointer; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid #000 2px;
+  width: 300px;
+  height: 100px; }
+  .flex .flex-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-color: #1296db;
+    border: solid #fff 1px; }
+
